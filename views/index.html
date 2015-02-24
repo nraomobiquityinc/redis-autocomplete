@@ -1,0 +1,12 @@
+<div class="row" ng-controller="AutocompleteCtrl">
+  <div class="col-md-8" style="float:inline-block;" angucomplete id="search" selectedobject="selectedMatch"
+  placeholder="Enter some text" pause="400" url="remoteUrl()" minlength="1" datafield="matches"
+  titlefield="text">
+  </div>
+
+  <div class="col-md-4">
+    <label for="numMatches">Number of matches to show</label>
+    <select id="numMatches" ng-model="numMatchesToReturn" ng-init="numMatchesToReturn = matchesToReturnOptions[0]"
+    ng-options="n as n for n in matchesToReturnOptions" />
+  </div>
+</div>

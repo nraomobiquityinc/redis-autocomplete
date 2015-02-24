@@ -1,0 +1,33 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auto complete using Redis</title>
+
+    <script src="js/libs/angular/angular.js"></script>
+    <script src="js/libs/angular/angular-route.js"></script>
+    <script src="js/libs/angucomplete.js"></script>
+    <script src="js/ng/ng.app.js"></script>
+    <script src="js/ng/ng.app.controllers.js"></script>
+    <script src="js/ng/ng.app.services.js"></script>
+    <link rel="stylesheet" href="css/angucomplete.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  </head>
+
+  <body>
+    <div class="container page-header">
+      <h2>Auto complete using Redis</h2>
+    </div>
+
+    <div class="container theme-showcase" id="main-content" role="main" ng-app="redisAutocompleteApp">
+      {{{body}}}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </div>
+  </body>
+
+</html>
