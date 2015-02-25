@@ -1,6 +1,7 @@
 logs/
 config.json
 node_modules/
+npm-debug.log
 config.json
 .DS_Store
 *.rdb
